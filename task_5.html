@@ -1,0 +1,225 @@
+<DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>task_5</title>
+    <link rel="stylesheet" href="style/task_5.css"/>
+</head>
+<body>
+<header role="banner">
+    <a href="#"><img src="images/baidu_logo.png" alt="大海"/></a>
+    <nav role="navigator">
+        <ul>
+            <li><a href="">导航地址一</a></li>
+            <li><a href="">导航地址二</a></li>
+            <li><a href="">导航地址三</a></li>
+            <li><a href="">导航地址四</a></li>
+        </ul>
+    </nav>
+</header>
+<!-------------------------页面头部---------------------------------------------------------->
+    <aside>
+        <h1>这里是一个侧栏，侧栏的标题</h1>
+
+        <form action="save.php" method="post">
+            <div class="email">
+                <div class="input_message">请输入邮箱地址</div>
+                <input type="email" placeholder="这是一个文本输入框"/>
+                <p class="demand"><span>邮箱地址请按要求格式输入</span></p>
+            </div>
+
+            <div class="password">
+                <div >
+                    <div class="input_message">请输入密码</div>
+                    <input type="password"  placeholder="这是一个文本输入框"/><br/>
+                </div>
+
+                 <div>
+                     <div class="input_message">请再次输入密码</div>
+                     <input type="password"  placeholder="这是一个文本输入框"/>
+                     <p class="demand"><span>密码请为6-16位英文数字</span></p>
+                 </div>
+            </div>
+
+            <div>
+                <div class="input_message">性别</div>
+                <input type="radio" name="gender" value="man" id="man"/>
+                <label for="man">男</label>&nbsp;&nbsp;&nbsp;&nbsp;
+               <input type="radio" name="gender" checked="checked" value="woman" id="woman"/>
+                <label for="woman">女</label>
+            </div>
+
+            <div>
+                <div class="input_message">城市</div>
+                <select>
+                    <option value="BJ">北京</value>
+                    <option value="SH">上海</value>
+                    <option value="SZ">深圳</value>
+                </select>
+            </div>
+
+            <div>
+                <div class="input_message">爱好</div>
+                <input type="checkbox"name="hobby"value="sport"id="sports"/>
+                <label for="sports">运动</label>&nbsp;&nbsp;
+                <input type="checkbox"name="hobby"value="sport"id="art"/>
+                <label for="art">艺术</label>&nbsp;&nbsp;
+                <input type="checkbox"name="hobby"value="sport"id="science"/>
+                <label for="science">科学</label>
+            </div>
+            <div>
+                <div class="input_message">个人描述:</div>
+                <textarea rows="15" name="description"  placeholder="这是一个多行输入框，输入您的个人描述">
+                </textarea>
+               </div>
+            <div class="submit">
+            <input type="submit" value="确认提交"/>
+            </div>
+        </form>
+
+
+
+
+
+
+    </aside>
+<!-------------------------aside部分---------------------------------------------------------->
+    <article>
+        <h1> 文章一级标题</h1>
+        <h2> 文章二级标题</h2>
+        <span class="tip1">文章作者</span>
+        <span class="tip1">文章发表时间</span>
+        <p>有一回，我就听得一间空屋里有着这种“数钱”的声音，推门进去，一条蛇伏在横梁上，看地上，躺着一匹隐鼠，
+            口角流血，但两胁还是一起一落的。取来给躺在一个纸盒子里，大半天，竟醒过来了，渐渐地能够饮食，行走，到第二日，
+            似乎就复了原，但是不逃走。放在地上，也时时跑到人面前来，而且缘腿而上，一直爬到膝髁。<a href="">这里有一个链接到http://ife.baidu.com</a>给放在饭桌上，
+            便检吃些菜渣，舐舐碗沿；放在我的书桌上，<b>则从容地游行</b>，看见砚台便舐吃了研着的墨汁。这使我非常惊喜了。
+            我听父亲说过的，中国有一种墨猴，只有拇指一般大，全身的毛是漆黑而且发亮的。</p>
+        <img src="images/luxun.png" alt="鲁迅"/>
+            <p>它睡在笔筒里，一听到磨墨，便跳出来，等着，等到人写完字，套上笔，<a href="">这里有一个链接到http://ife.baidu.com</a>就舐尽了砚上的余墨，仍旧跳进笔筒里去了。我就极愿意有这样的一个墨猴，
+            可是得不到；问那里有，那里买的呢，谁也不知道。<i>“慰情聊胜无”“慰情聊胜无”</i>：出自晋陶渊明诗《和刘柴桑》：
+            “弱女虽非男，慰情良胜无。”，这隐鼠总可以算是我的墨猴了罢，虽然它舐吃墨汁，并不一定肯等到我写完字。</p>
+
+
+    </article>
+
+
+<!---------------------------第一篇文章----------------------------------------------------->
+    <article class="article2">
+        <h1> 另一篇文章一级标题</h1>
+        <h2> 文章二级标题</h2>
+        <span class="tip1">文章作者</span>
+        <span class="tip1">文章发表时间</span>
+        <p>有一回，我就听得一间空屋里有着这种“数钱”的声音，推门进去，一条蛇伏在横梁上，看地上，躺着一匹隐鼠，
+            口角流血，但两胁还是一起一落的。取来给躺在一个纸盒子里，大半天，竟醒过来了，渐渐地能够饮食，行走，到第二日，
+            似乎就复了原，但是不逃走。放在地上，也时时跑到人面前来，而且缘腿而上，一直爬到膝髁。<a href="">这里有一个链接到http://ife.baidu.com</a>给放在饭桌上，
+            便检吃些菜渣，舐舐碗沿；放在我的书桌上，<b>则从容地游行</b>，看见砚台便舐吃了研着的墨汁。这使我非常惊喜了。
+            我听父亲说过的，中国有一种墨猴，只有拇指一般大，全身的毛是漆黑而且发亮的。</p>
+        <img src="images/luxun.png" alt="鲁迅"/>
+         <ul>
+             <li>项目列表一</li>
+             <li>项目列表二</li>
+             <li>项目列表三</li>
+         </ul>
+    </article>
+    <!---------------------------第二篇文章----------------------------------------------------->
+    <article class="article3">
+        <h1>图片</h1>
+        <figure>
+            <figcaption>人物肖像</figcaption>
+            <img src="images/luxun.png" alt="鲁迅"/>
+        </figure>
+        <figure>
+            <figcaption>人物肖像</figcaption>
+            <img src="images/luxun.png" alt="鲁迅"/>
+        </figure>
+        <figure>
+            <figcaption>人物肖像</figcaption>
+            <img src="images/luxun.png" alt="鲁迅"/>
+        </figure>
+        <figure>
+            <figcaption>人物肖像</figcaption>
+            <img src="images/luxun.png" alt="鲁迅"/>
+        </figure>
+        <figure>
+            <figcaption>人物肖像</figcaption>
+            <img src="images/luxun.png" alt="鲁迅"/>
+        </figure>
+        <figure>
+            <figcaption>人物肖像</figcaption>
+            <img src="images/luxun.png" alt="鲁迅"/>
+        </figure>
+        <figure>
+            <figcaption>人物肖像</figcaption>
+            <img src="images/luxun.png" alt="鲁迅"/>
+        </figure>
+        <figure>
+            <figcaption>人物肖像</figcaption>
+            <img src="images/luxun.png" alt="鲁迅"/>
+        </figure>
+        <figure>
+            <figcaption>人物肖像</figcaption>
+            <img src="images/luxun.png" alt="鲁迅"/>
+        </figure>
+        <figure>
+            <figcaption>人物肖像</figcaption>
+            <img src="images/luxun.png" alt="鲁迅"/>
+        </figure>
+    </article>
+    <!---------------------------第三篇文章----------------------------------------------------->
+<article class="article4">
+    <h1> 另一篇文章一级标题</h1>
+    <h2> 文章二级标题</h2>
+    <span class="tip1">文章作者</span>
+    <span class="tip1">文章发表时间</span>
+
+    <ol>
+        <li>排名1</li>
+        <li>排名2</li>
+        <li>排名3</li>
+    </ol>
+    <table border="1px">
+        <caption align="left">下面是一个表格，给表格加了一个border="1"好让你看出是一个表格</caption>
+        <tr class="for_th">
+            <th>表头</td>
+            <th>表头</td>
+             <th>表头</td>
+        </tr>
+        <tr>
+            <td>表内容单元格</td>
+            <td>表内容单元格</td>
+            <td><a href="">操作</a></td>
+        </tr>
+        <tr>
+            <td>表内容单元格</td>
+            <td>表内容单元格</td>
+            <td><a href="">操作</a></td>
+        </tr>
+        <tr>
+            <td>表内容单元格</td>
+            <td>表内容单元格</td>
+            <td><a href="">操作</a></td>
+        </tr>
+        <tr>
+            <td>表内容单元格</td>
+            <td>表内容单元格</td>
+            <td><a href="">操作</a></td>
+        </tr>
+        <tr class="bot">
+            <td>总计</td>
+            <td colspan="2">1000</td>
+        </tr>
+    </table>
+</article>
+<!---------------------------第四篇文章----------------------------------------------------->
+<footer>
+    <span>版权所有&copy;&nbsp;&nbsp;@t657483920</span>
+</footer>
+
+
+
+
+
+
+
+</body>
+</html>
