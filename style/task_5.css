@@ -1,0 +1,169 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background: #dedede;
+    font-family:'microsoft yahei';
+    font-size: 15px;
+}
+header{
+    positon:relative;
+    height:70px;
+    width:100%;
+    background:#333333;
+}
+header img{
+    height:70px;
+    padding: 0 0 0 40px;
+}
+header ul{
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+header li{
+    display:block;
+    width:65px;
+    float:left;
+    height:70px;
+    text-align:center;
+    line-height:70px;
+    margin:0 10px;
+}
+header a{
+    color:white;
+    font-size:12px;
+}
+header a:hover{
+    color:blue;
+}
+article{
+    margin-top: 40px;
+    background-color: #FFF;
+    margin-left: 40px;
+    margin-right: 450px;
+    padding: 30px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 2px #848484;
+}
+article h1{
+    margin:10px 0;
+    font-size: 20px;
+}
+article h2{
+    margin:10px 0;
+    font-size:15px;
+    color:#808080;
+}
+article span{
+    line-height:20px;
+    padding:5px 0px;
+    color:#808080;
+    font-size:9px;
+
+}
+article p{
+    padding:20px 0px;
+    text-indent: 2em;
+}
+article.article2 li{
+    list-style-type: none;
+}
+.article3>figure{
+    height:150px;
+    width: 120px;
+    border: 1px solid #aaa;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    display:inline-block;
+    margin-right:50px;
+
+}
+.article3 img{
+    width:100px;
+    height:120px;
+}
+aside{
+    background: #fff;
+    float: right;
+    width: 350px;
+    margin-top: 40px;
+    margin-right: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px #848484;
+}
+aside form div.input_message{
+    width:30%;
+    display:inline-block;
+    margin-right:20px;
+    text-align:right;
+    margin-bottom:5px;
+    vertical-align: top;
+}
+aside form p.demand{
+   color:#ccc;
+    font-size:12px;
+    padding-left:130px;
+    color:#a00
+
+
+}
+aside div.email{
+    margin-bottom:5px;
+    margin-top:5px;
+}
+aside div.password{
+    margin-bottom:15px;
+    margin-top:15px;
+}
+aside h1{
+    border-left:2px solid black;
+    padding-left:16px;
+    font-size:18px;
+    margin:20px 0px;
+}
+aside div.submit{
+    margin-top:50px;
+}
+aside input[type="submit"]{
+
+    width:100%;
+    height:50px;
+    background-color:#0063dc;
+    border-radius: 10px;
+    color:#fff;
+    font-size: 18px;
+}
+
+.article4 ol{
+    margin-left:40px;
+    margin-top:20px;
+    margin-bottom:15px;
+    font-weight:bold;
+}
+table{
+    width: 100%;
+    margin: 0 auto;
+    border-color: #ccc;
+    border-collapse:collapse;
+    font-size:14px;
+
+}
+table tr.for_th{
+    text-align:left;
+    background-color: #444;
+    color:#dedede;
+}
+table tr.bot{
+    background-color: #ccc;
+    font-weight:bold;
+}
+footer{
+    height:50px;
+    background-color: #0063dc;
+    text-align: center;
+    line-height:50px;
+}
