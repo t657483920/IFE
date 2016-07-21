@@ -343,15 +343,6 @@ article.a3{
     top:130px;
 }
 
-
-
-
-
-
-
-
-
-
 footer{
     position: absolute;
     bottom: 0px;
@@ -359,6 +350,9 @@ footer{
     height: 31px;
     width:892px;
     border-top:1px solid #938e8c;
+    text-align: center;
+    line-height: 31px;
+    font-size: 14px;
 }
 
 
